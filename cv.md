@@ -9,9 +9,13 @@
 #### Contact information:
 
 ![pin](icons/iconmonstr-compass-12-24.png) Wroclaw 
+
 ![tel](icons/iconmonstr-phone-9-24.png) +48 733 921 057 
-![mail](icons/iconmonstr-email-14-24.png) mila.dombrowska@gmail.com 
+
+![mail](icons/iconmonstr-email-14-24.png) mila.dombrowska@gmail.com
+
 ![telegram](icons/iconmonstr-telegram-5-24.png) mila_wro 
+
 
 ----
 
