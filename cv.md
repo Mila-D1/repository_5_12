@@ -1,5 +1,5 @@
 <a id="anchor"></a>
-[![logo](/rsschool-cv/icons/logo-rs3.jpg)](https://rs.school) rsschool-cv
+[![logo](icons/logo-rs3.jpg)](https://rs.school) rsschool-cv
 ---
 # Ludmila Dombrowska
 ---
@@ -8,10 +8,10 @@
 
 #### Contact information:
 
-![pin](/rsschool-cv/icons/iconmonstr-compass-12-24.png) Wroclaw 
-![tel](/rsschool-cv/icons/iconmonstr-phone-9-24.png) +48 733 921 057 
-![mail](/rsschool-cv/icons/iconmonstr-email-14-24.png) mila.dombrowska@gmail.com 
-![telegram](/rsschool-cv/icons/iconmonstr-telegram-5-24.png) mila_wro 
+![pin](icons/iconmonstr-compass-12-24.png) Wroclaw 
+![tel](icons/iconmonstr-phone-9-24.png) +48 733 921 057 
+![mail](icons/iconmonstr-email-14-24.png) mila.dombrowska@gmail.com 
+![telegram](icons/iconmonstr-telegram-5-24.png) mila_wro 
 
 ----
 
@@ -28,6 +28,7 @@ In the new role of a junior front-end developer, I found new energy and satisfac
 ---
 
 #### Education:
+
 * National University of Water Management and Nature Resources Use.
     * Profession: Heat Power Engineer.
 
@@ -52,7 +53,6 @@ In the new role of a junior front-end developer, I found new energy and satisfac
 * Figma.
 * Serpstat.
 
-
 ##### Soft skills:
 
 * Creative Spirit. 
@@ -64,6 +64,20 @@ In the new role of a junior front-end developer, I found new energy and satisfac
 ---
 #### Code example:
 
+This code configures and runs puppeteer to fetch and parse results of Googles SERP for given keyword in given location
+
+```
+async function main(keyword: string, location: string) {
+    const browser = await puppeteer.use(StealthPlugin()).launch({
+        args: ['--no-sandbox', '--proxy-server=' + SERPURLs.proxyFor(location)],
+        headless: false,
+    })
+
+    const downloader = new Downloader(browser)
+    const serp = await downloader.fetch(keyword, SERPURLs.urlFor(location))
+    console.log(serp)
+}
+```
 
 ---
 #### Languages:
