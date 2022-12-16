@@ -1,0 +1,118 @@
+body {
+    background-color: rgb(218, 227, 228);
+    padding: 40px 0px;
+    margin: 0px;
+}   
+h1 { font-size: 40px;
+    margin-top: 60px;
+    margin-bottom: 15px; 
+}  
+h2 { color:  rgb(26, 99, 99);
+    font-size: 30px; 
+    font-style: initial;
+    font-weight: 600;
+    margin: 30px 0px;
+}
+.prof_header {
+    font-size: 28px;
+    font-style: italic;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+h3 {
+    color:  rgb(26, 99, 99);;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic; 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+}
+header ul {
+    list-style: none;
+    font-size: 18px;
+}
+header li {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+header a {
+    text-decoration: none;
+    color: #000000;
+}
+.address-icon { 
+    width: 16px; 
+    height: 16px;
+    background-color: rgb(11, 125, 125);
+    margin-right: 10px;
+    padding:  8px;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+.circle { 
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.profile-picture {
+    width: 220px; 
+     height: 220px;
+}
+main {
+    background-color: white;
+    padding: 10px 60px 20px 60px;
+    width: 960px;
+    margin: 0 auto;
+    line-height: 170%;
+    font-size: 18px;
+}
+.education p {
+    margin: 5px;
+}
+.example pre {
+    color: rgb(11, 125, 125);
+    width: 870px;
+    font-size: 1.0rem;	
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color: rgb(218, 227, 228);
+}
+.example code {
+    position: relative;
+    right: 25px;
+    top: 15px;
+}
+footer {
+    background-color: rgb(11, 125, 125);
+    padding: 10px 60px 10px 60px;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer a {
+text-decoration: none;
+color: #ffffff;
+}
+footer .github-icon {
+    margin-right: 10px;
+}
+.github {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p {
+    color: #ffffff;
+}
+.rs-logo {
+    align-content: center;
+}
