@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img class="profile-picture circle" src="img/photo.png" alt="Profile picture">
+    <div>
+      <h1>Ludmila Dombrowska</h1>
+      <h2 class="prof_header">Junior Frontend Developer</h2>
+    </div>
+    <div class="contact_info">
+      <ul>
+        <li><img class="address-icon" src="icons/location-24-3.png" alt="location">Wrocław</li>
+        <li><img class="address-icon" src="icons/phone-24-3.png" alt="phone"><a href="tel:111111111">+48 111 111 111</a></li>
+        <li><img class="address-icon" src="icons/telegram-24-3.png" alt="telegram">@mila_1</li>
+        <li><img class="address-icon" src="icons/email-24-3.png" alt="email"><a href="mailto:vanilla77177@gmail.com">vanilla77177@gmail.com</a></li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <section class="profile">
+      <h2>Profile</h2>
+      <p>
+        My original specialization was customer acquisition in Eastern markets. As an HVAC engineer, I was focusing on reaching assigned goals. The current market situation and war behind the Eastern border forced me to switch perspectives. In the new role of a junior front-end developer, I found new energy and satisfaction. I am seeking new opportunities where my strength will be the most prominent.
+      </p>
+    </section>
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+      <li>National University of Water Management and Nature Resources Use.<br>Profession: Heat Power Engineer</li>
+      <li>Netpeak Group.<br>Educational program: SEO basics</li>
+      </ul>
+    </section>
+    <section>
+      <h2>Professional skills</h2>
+      <h3>Hard skills</h3>
+      <ul>
+        <li>Microsoft Office package (Word, Excel, PowerPoint).</li>
+        <li>AutoCad.</li>
+        <li>Basics knowledge of HTML and CSS.</li>
+        <li>Facebook Ads Manager.</li>
+        <li>Canva.</li>
+        <li>Figma.</li>
+        <li>Serpstat.</li>
+      </ul>
+      <h3>Soft skills</h3>
+      <ul>
+          <li>Creative Spirit.</li>
+          <li>Organized.</li>
+          <li>Team player</li>
+          <li>Motivated </li>
+          <li>Deadline-oriented</li>
+      </ul>
+    </section>
+    <section class="example">
+      <h2>Code example</h2>
+      <p>This code configures and runs puppeteer to fetch and parse results of Googles SERP for given keyword in given location:</p>
+      <pre>
+        <code>
+          async function main(keyword: string, location: string) {
+            const browser = await puppeteer.use(StealthPlugin()).launch({
+                args: ['--no-sandbox', '--proxy-server=' + SERPURLs.proxyFor(location)],
+                headless: false,
+            })
+        
+            const downloader = new Downloader(browser)
+            const serp = await downloader.fetch(keyword, SERPURLs.urlFor(location))
+            console.log(serp)
+          }
+        </code>
+      </pre>
+    </section>
+    <section class="languages">
+     <h2>Languages</h2>
+      <ul>
+        <li>Ukrainian - native.</li>
+        <li>Polish - B2/C1. </li>
+        <li>English - B1.</li>
+        <li>Russian - native.</li>
+      </ul>
+   </section>
+    <section>
+    <h2>Hobby</h2>
+    <ul>
+        <li>Sport.</li>
+        <li>Traveling.</li>
+        <li>Photography.</li>
+        <li>Social media.</li>
+        <li>Psychology: DISC assessment.</li>
+    </ul>
+    </section>
+  </main>
+  <footer>
+    <a class="github" href="https://github.com/Mila-D1"><img class="github-icon" src="icons/github-32-3.png" alt="Github Icon">
+      <p>GitHub</p></a>  
+    <p>© 2022</p>
+    <a class="rs-logo" href="https://rs.school/js/"><img src="icons/rs_school_logo_3.png" alt="Rsschool Icon"></a>
+  </footer>
+</body>
+</html>
