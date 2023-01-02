@@ -108,7 +108,6 @@ h1 span {
     line-height: 35px;
 }
 .welcome_btn {
-    background: #EDF2EC;
     width: 158px;
     height: 44px;
     border: 2px solid #E06733;
@@ -241,8 +240,8 @@ h1 span {
     cursor: pointer;
 }    
 .service .services_items .items_img:hover {
-    filter: blur(1px);
-    opacity: .5;
+    filter: grayscale(90%);
+    opacity: .9;
 }
 .service .services_items .items_text {
     width: 330px;
@@ -269,4 +268,228 @@ h1 span {
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 10px;
+}
+.prices {
+    background: #FFFFFF;
+    width: 1440px;
+    height: 560px;
+    margin: 0 auto;
+}
+.prices_wrapper {
+    width: 1222px;
+    height: 405px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    top: 40px;
+}
+.prices_form {
+    width: 332px;
+    height: 391px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caption {
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+}
+.prices_form_items {
+    width: 332px;
+    height: 282.01px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.prices_form_items .item {
+    width: 250px;
+    height: 50px;
+    background: #EDF2EC;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.prices_form_items h3 {
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    left: 40px;
+}
+.form_img {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 40px;
+    transition: 1s;
+}
+.form_img:hover {
+    transform: scale(2);
+}
+.price_contact {
+    width: 797px;
+    height: 191px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price_contact h2 {
+    color: #000000;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+.price_contact h2 span {
+    color: #499A18;
+}
+.price_contact button {
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #E06733;
+    cursor: pointer;
+    transition: color 0.25s;
+}
+.price_contact button:hover {
+    color: white;
+    background-color: #E06733;
+}
+.price_img {
+    width: 152px;
+    height: 175px;
+    position: relative;
+    left: 1070px;
+    bottom: 130px;
+}
+.contacts {
+    background: #EDF2EC;
+    width: 1440px;
+    height: 550px;
+    margin: 0 auto;
+}
+.contacts_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.contacts_wrapper .contact_img {
+    width: 400px;
+    height: 496.99px;
+    position: relative;
+    top: 53px;
+}
+.contacts_wrapper h2 {
+    color: #499A18;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    position:relative;
+    top: 60px;
+}
+.contacts_wrapper .contact_items {
+    height: 50px;
+    width: 450px;
+    background: #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    top: 148px;
+}
+.contact_items p {
+    color: #717171;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    position: relative;
+    left: 20px;
+}
+.contacts_btn {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    right: 35px;
+}
+footer {
+    background: #FFFFFF;
+    width: 1440px;
+    height: 130px;
+    margin: 0 auto;
+}
+.footer_wrapper {
+    width: 1222px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 40px;
+}
+.footer_wrapper .github {
+    width: 182px;
+    height: 50px;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_wrapper .github a {
+    color: #000000;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer_wrapper .rs {
+    color: #000000;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 400;
+    list-style-type: none;
+    text-decoration: none;
+}
+.footer_wrapper .social_media {
+    width: 188px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.social_media .insta {
+    width: 24px;
+    height: 24px;
+}
+.social_media .fb {
+    width: 21px;
+    height: 24px;
+}
+.social_media .twitter {
+    width: 24px;
+    height: 24px;
+}
+.social_media .pint {
+    width: 24px;
+    height: 24px;
 }
